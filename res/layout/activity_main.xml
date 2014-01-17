@@ -1,24 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    xmlns:start="http://schemas.android.com/apk/res/com.epoint.epointuniversal.pjq"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
     android:background="@drawable/pjq_bg"
     android:orientation="vertical" >
 
-    <TextView
+    <com.epoint.epointuniversal.ScrollTextView
+        android:id="@+id/scrolltxt"
         android:layout_width="fill_parent"
-        android:layout_height="match_parent"
-        android:layout_marginBottom="5dp"
-        android:layout_marginLeft="22sp"
-        android:layout_marginRight="22sp"
-        android:ellipsize="marquee"
-        android:focusable="true"
-        android:focusableInTouchMode="true"
-        android:marqueeRepeatLimit="marquee_forever"
-        android:scrollHorizontally="true"
-        android:singleLine="true"
-        android:text="青海省人民政府行政服务和公共资源交易中心                      青海省人民政府行政服务和公共资源交易中心                      青海省人民政府行政服务和公共资源交易中心"
-        android:textColor="@android:color/white"
-        android:textSize="40sp" />
+        android:layout_height="wrap_content"
+        start:clickEnable="false"
+        start:isHorizontal="true"
+        start:speed="3"
+        start:text="青海省人民政府行政服务和公共资源交易中心"
+        start:textSize="40sp"
+        start:times="1" >
+    </com.epoint.epointuniversal.ScrollTextView>
 
 </LinearLayout>
