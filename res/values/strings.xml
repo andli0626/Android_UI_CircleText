@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 推送服务器IP -->
+    <string name="message_push_server_ip">tcp://192.168.200.110:1883</string>
+    <string name="app_name">EpointUniversal</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="im_server_url">http://192.168.1.187:8080/MobileIMService/interface.seam</string>
+    <string name="IMServiceName">EpointIMMainService</string>
+
+</resources>
