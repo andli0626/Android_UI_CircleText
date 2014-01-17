@@ -6,6 +6,7 @@
     android:layout_height="match_parent" >
 
     <com.epoint.epointuniversal.ScrollTextView
+         android:background="@drawable/pjq_bg"
         android:id="@+id/scrolltxt"
         android:layout_width="wrap_content"
         android:layout_height="80dp"
@@ -15,7 +16,7 @@
         start:isHorizontal="true"
         start:speed="3"
         start:text="111111111111 "
-        start:textColor="#ff1515"
+        start:textColor="@android:color/white"
         start:textSize="30dp"
         start:times="1" >
     </com.epoint.epointuniversal.ScrollTextView>
